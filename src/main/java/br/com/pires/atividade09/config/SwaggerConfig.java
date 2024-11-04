@@ -12,7 +12,7 @@ public class SwaggerConfig {
     @Bean
     public OpenAPI customOpenAPI() {
         return new OpenAPI().info(new Info().title("Atividade 09 - Backend RESTful").version("1.0")
-                .license(new License().name("Lincença do Sistema").url("https://github.com/pires/atividade09"))
+                .license(new License().name("Lincença do Sistema").url("https://github.com/matheus3pires/Atividade-09"))
         );
     }
 }
