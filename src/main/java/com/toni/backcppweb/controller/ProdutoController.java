@@ -1,7 +1,7 @@
-package br.com.pires.atividade09.controller;
+package com.toni.backcppweb.controller;
 
-import br.com.pires.atividade09.model.Produto;
-import br.com.pires.atividade09.service.ProdutoService;
+import com.toni.backcppweb.model.Produto;
+import com.toni.backcppweb.service.ProdutoService;
 import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/produtos")
+@CrossOrigin(origins = "http://localhost:3000")
 public class ProdutoController {
 
     @Autowired

@@ -1,4 +1,4 @@
-package br.com.pires.atividade09.model;
+package com.toni.backcppweb.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

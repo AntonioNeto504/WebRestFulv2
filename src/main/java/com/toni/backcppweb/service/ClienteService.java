@@ -1,7 +1,7 @@
-package br.com.pires.atividade09.service;
+package com.toni.backcppweb.service;
 
-import br.com.pires.atividade09.model.Cliente;
-import br.com.pires.atividade09.persistence.ClienteRepository;
+import com.toni.backcppweb.model.Cliente;
+import com.toni.backcppweb.persistence.ClienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

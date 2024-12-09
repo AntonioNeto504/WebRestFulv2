@@ -1,6 +1,6 @@
-package br.com.pires.atividade09.persistence;
+package com.toni.backcppweb.persistence;
 
-import br.com.pires.atividade09.model.Produto;
+import com.toni.backcppweb.model.Produto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
